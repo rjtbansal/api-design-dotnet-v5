@@ -1,0 +1,27 @@
+# Build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings (machine-specific, not shared)
+.claude/settings.local.json
+
+# Local secrets — appsettings.Development.json in this repo holds only
+# placeholder values, but real per-developer overrides go here instead:
+appsettings.Local.json
+appsettings.Production.json
